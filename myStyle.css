@@ -38,13 +38,19 @@ h6{
     display:flex;
     flex-direction: column;
     justify-content:center;
+    color:black;
+    background-color:black;
 }
 #demo{
     background-color:black;
 }
 .picWidth{
     width:500px;
-    align-content:center;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    color:black;
+    background-color:black;
 }
 @media only screen and (max-width: 1000px) {
     body {
