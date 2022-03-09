@@ -19,7 +19,7 @@ h4{
     background-color: black;
     font-family:'Cousine';
     color:rgb(255, 255, 255);
-    text-align:center;
+    text-align:left;
     border: 1px solid white;
     margin:0px;
 }
@@ -34,10 +34,13 @@ h6{
     font-size:10px;
     margin:0px 0px;
 }
-.container{
+.mainContainer{
     display:flex;
     flex-direction: column;
     justify-content:center;
+}
+.demo{
+    background-color:black;
 }
 @media only screen and (max-width: 1000px) {
     body {
