@@ -44,6 +44,7 @@ h6{
 }
 .picWidth{
     width:500px;
+    align-content:center;
 }
 @media only screen and (max-width: 1000px) {
     body {
