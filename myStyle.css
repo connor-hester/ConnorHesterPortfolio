@@ -41,9 +41,9 @@ h6{
     margin:0px 0px;
 }
 .mainContainer{
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
     color:solid black;
     background-color: black;
 }
