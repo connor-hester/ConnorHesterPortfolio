@@ -1,5 +1,5 @@
 h1{
-    background-color: solid black;
+    background-color:  black;
     font-family:'Cousine';
     color:rgb(255, 255, 255);
     text-align:center;
@@ -7,14 +7,14 @@ h1{
     margin:0px;
 }
 body{
-    background-color:solid black;
+    background-color: black;
 }
 img{
     color:solid black;
-    background-color:solid black;
+    background-color: black;
 }
 h3{
-    background-color: solid rgb(255, 255, 255);
+    background-color:  rgb(255, 255, 255);
     text-align:center;
     font-family:'Cousine';
     color:rgb(0, 0, 0);
@@ -34,7 +34,7 @@ p{
 h6{
     text-align:right;
     font-family:'Cousine';
-    color:white;
+    color:solid white;
     font-size:10px;
     margin:0px 0px;
 }
@@ -42,11 +42,11 @@ h6{
     display:flex;
     flex-direction: column;
     justify-content:center;
-    color:black;
-    background-color:solid black;
+    color:solid black;
+    background-color: black;
 }
 #demo{
-    background-color:solid black;
+    background-color: black;
 }
 .picWidth{
     margin: auto;
@@ -54,7 +54,7 @@ h6{
     border: 5px solid black;
     padding: 10px;
     color:solid black;
-    background-color:solid black;
+    background-color: black;
 }
 @media only screen and (max-width: 1000px) {
     body {
@@ -65,5 +65,5 @@ h6{
     width: 720px;
     height: 360px;
     margin: 0 auto;
-    background-color: solid black;
+    background-color:  black;
 }
