@@ -10,10 +10,7 @@ body{
     background-color:solid black;
 }
 img{
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
-    color:black;
+    color:solid black;
     background-color:solid black;
 }
 h3{
