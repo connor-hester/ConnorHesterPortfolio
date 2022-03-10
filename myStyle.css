@@ -9,6 +9,13 @@ h1{
 body{
     background-color:solid black;
 }
+img{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    color:black;
+    background-color:solid black;
+}
 h3{
     background-color: solid rgb(255, 255, 255);
     text-align:center;
