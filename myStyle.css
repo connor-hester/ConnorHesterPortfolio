@@ -101,6 +101,49 @@ a:link {
 .carousel-control-next,
 .carousel-control-prev /*, .carousel-indicators */ {
     filter: invert(100%);
-    width: 40px;
 }
+.carousel .carousel-item {
+    height: 20%;
+  }
+  
+  .item img {
+      position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 40%;
+  }
 
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .carousel-inner {
+      height: 400px;
+  }
+  
+  .carousel-item, .carousel-item img {
+      height: 400px;
+      position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 40%;
+    
+  }
+  
+  } 
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 767px) {
+      .carousel-inner {
+      height: 160px;
+      position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 40%;
+  }
+  
+  .carousel-item, .carousel-item img {
+      height: 160px;
+      position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 40%;
+  }
+  }
