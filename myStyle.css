@@ -28,6 +28,13 @@ h4{
     color:rgb(255, 255, 255);
     text-align:left;
 }
+h5{
+    background-color:black;
+    font-family:"Cousine";
+    font-size:12px;
+    text-align:center;
+    color:white;
+}
 p{
     text-align: center;
     margin: 80px;
@@ -146,4 +153,10 @@ a:link {
         left: 0;
         min-height: 40%;
   }
+  }
+  .nav{
+      display:flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
   }
